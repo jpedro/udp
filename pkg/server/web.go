@@ -6,7 +6,8 @@ import (
 	"net/http"
 	"os"
 	"strconv"
-	"udp-web-logger/pkg/static"
+
+	"github.com/jpedro/udp/pkg/static"
 )
 
 // HTTPServer encapsulates HTTP server API.

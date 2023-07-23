@@ -4,7 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"udp-web-logger/pkg/server"
+
+	"github.com/jpedro/udp/pkg/server"
 )
 
 var usage = `
