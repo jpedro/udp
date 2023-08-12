@@ -1,7 +1,8 @@
 .PHONY: install
 install:
+	@# go get github.com/golang/lint/golint
 	go get github.com/UnnoTed/fileb0x
-	go get github.com/golang/lint/golint
+	go get golang.org/x/lint
 	go get github.com/gordonklaus/ineffassign
 	go get github.com/client9/misspell/cmd/misspell
 

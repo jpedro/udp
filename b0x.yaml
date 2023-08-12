@@ -1,10 +1,10 @@
 pkg: static
 dest: "./pkg/static/"
 
-compression:
-  compress: true
-  method: "BestCompression"
-  keep: false
+# compression:
+#   compress: false
+#   method: "BestCompression"
+#   keep: false
 
 custom:
   - files:

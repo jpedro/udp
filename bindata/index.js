@@ -32,7 +32,7 @@
     function onToggleClick() {
         if (!isFetching) {
             fetchLogEntries();
-            timer = setInterval(fetchLogEntries, 2000);
+            timer = setInterval(fetchLogEntries, 1000);
 
             toggleButton.innerText = toggleButton.dataset.stop;
             toggleButton.classList.remove(toggleButton.dataset.start);
